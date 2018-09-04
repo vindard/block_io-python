@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+block-io = "*"
+requests = "==2.4.3"
+pycrypto = "==2.6.1"
+ecdsa = "==0.13"
+six = ">=1.8.0"
+
+[requires]
+python_version = "3.6"
